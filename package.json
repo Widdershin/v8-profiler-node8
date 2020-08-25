@@ -56,7 +56,7 @@
     "url": "git://github.com/hyj1991/v8-profiler-node8.git"
   },
   "scripts": {
-    "install": "node-pre-gyp install --fallback-to-build",
+    "install": "node-pre-gyp install --fallback-to-build --verbose",
     "preinstall": "node -e 'process.exit(0)'",
     "package": "node scripts/build.js",
     "pack-common": "node scripts/common.js",
